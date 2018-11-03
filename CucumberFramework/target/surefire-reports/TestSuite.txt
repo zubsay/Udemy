@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 0.821 sec <<< FAILURE! - in TestSuite
+setUpClass(runners.MainRunner)  Time elapsed: 0.663 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: gherkin/formatter/Reporter
+Caused by: java.lang.ClassNotFoundException: gherkin.formatter.Reporter
+
+tearDownClass(runners.MainRunner)  Time elapsed: 0.671 sec  <<< FAILURE!
+java.lang.NullPointerException
+
